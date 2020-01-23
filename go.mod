@@ -6,6 +6,8 @@ require (
 	github.com/Azure/azure-sdk-for-go v32.6.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.9.3
 	github.com/Azure/go-autorest/autorest/azure/auth v0.4.1
+	github.com/DataDog/datadog-go v3.4.0+incompatible // indirect
+	github.com/Shopify/sarama v1.25.0 // indirect
 	github.com/aws/aws-sdk-go v1.25.48
 	github.com/caddyserver/caddy v1.0.4
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
@@ -23,6 +25,7 @@ require (
 	github.com/prometheus/client_golang v1.2.1
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4
 	github.com/prometheus/common v0.7.0
+	github.com/tinylib/msgp v1.1.1 // indirect
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20190917205325-a14579fbfb1a
 	golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413
 	golang.org/x/sys v0.0.0-20191210023423-ac6580df4449
