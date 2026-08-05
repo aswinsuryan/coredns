@@ -13,7 +13,7 @@ STRIP_FLAGS?=-s -w
 LDFLAGS?=-ldflags="$(STRIP_FLAGS) -X github.com/coredns/coredns/coremain.GitCommit=$(GITCOMMIT)"
 
 export GOSUMDB = sum.golang.org
-export GOTOOLCHAIN = go$(GOLANG_VERSION)
+export GOTOOLCHAIN = local
 
 .PHONY: all
 all: coredns
@@ -42,3 +42,7 @@ pb:
 clean:
 	go clean
 	rm -f coredns
+
+.PHONY: test
+test: check
+	GOFLAGS=-mod=vendor go test -count=1 ./...
