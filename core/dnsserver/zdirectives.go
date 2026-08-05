@@ -41,6 +41,7 @@ var Directives = []string{
 	"chaos",
 	"loadbalance",
 	"tsig",
+	"ocp_dnsnameresolver",
 	"cache",
 	"rewrite",
 	"acl",
