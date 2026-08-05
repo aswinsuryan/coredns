@@ -4,4 +4,3 @@ coredns.exe
 Corefile
 build/
 release/
-vendor/
